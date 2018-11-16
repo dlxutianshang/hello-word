@@ -1,0 +1,19 @@
+public class ZZ {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		int zz = 0;
+		String zzS = "";
+		int xz = (int) (Math.random()*10);
+		for(int i=0;i<=100;i++){
+			zz = (int) (Math.random()*10);
+			zzS += zz;
+		}
+		System.out.println("100个随机数："+zzS);
+		System.out.println("找出("+xz+")有多少数量");
+	}
+
+}
